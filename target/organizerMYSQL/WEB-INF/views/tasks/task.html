@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>get</title>
+</head>
+<body>
+<p th:text="${'Name: ' + task.getName()}">VALUE</p>
+<p th:text="${'Description: ' + task.getDescription()}">VALUE</p>
+
+<br>
+
+<a th:href="@{/tasks/{id}/edit(id=${task.getId()})}">Edit</a>
+
+<form th:method="DELETE" th:action="@{/tasks/{id}(id=${task.getId()})}">
+    <input  type="submit" value="Delete Task">
+</form>
+
+</body>
+</html>
