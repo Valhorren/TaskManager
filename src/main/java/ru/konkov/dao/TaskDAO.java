@@ -1,4 +1,4 @@
-package ru.konkov.DAO;
+package ru.konkov.dao;
 
 
 import org.hibernate.*;

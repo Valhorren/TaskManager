@@ -2,7 +2,7 @@ package ru.konkov.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import ru.konkov.DAO.TaskDAO;
+import ru.konkov.dao.TaskDAO;
 import ru.konkov.model.Task;
 
 import javax.transaction.Transactional;

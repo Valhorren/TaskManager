@@ -1,4 +1,4 @@
-package ru.konkov.Controller;
+package ru.konkov.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

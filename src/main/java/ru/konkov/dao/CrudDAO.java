@@ -1,4 +1,4 @@
-package ru.konkov.DAO;
+package ru.konkov.dao;
 import ru.konkov.model.Task;
 import java.io.Serializable;
 import java.util.List;
